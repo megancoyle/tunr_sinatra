@@ -1,0 +1,6 @@
+<% @artists.each do | artist| %>
+  <div class="artist">
+    <h2><%= artist.name %></h2>
+    <img src="<%= artist.photo_url %>">
+  </div>
+<% end %>
